@@ -3,7 +3,6 @@
 CREATE TABLE city_info (
 	id SERIAL PRIMARY KEY,
 	city TEXT,
-	region TEXT,
 	country TEXT,
 	air_quality VARCHAR,
 	water_pollution VARCHAR
@@ -26,8 +25,8 @@ SELECT * FROM city_info;
 
 -- highlight and run to join tables on city data
 
-SELECT city_info.city, city_info.region, city_info.country, city_info.air_quality, 
+SELECT city_info.city, city_info.country, city_info.air_quality, 
 city_info.water_pollution, smart_info.smart_mobility, smart_info.smart_environment, smart_info.smart_environment, smart_info.smart_living
 FROM smart_info
 JOIN city_info
-ON smart_info.city = city_info.city;
+ON smart_info.city = city_info.city and smart_info.country = city_info.country;
