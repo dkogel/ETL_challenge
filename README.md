@@ -3,8 +3,8 @@
 ### Group 2: Daniel Kogel, Kirsteen Lugtu, Julia Catalano
 
 ## Datafiles
-1.City Pollution Data: Used Kaggle to find CSV datafile with information on air quality and water pollution by city.
-2.Smart City Data: Used Kaggle to find CSV datafile with information on how effectively Internet of Things has been implemented to manage aspects of city life, specifically looking at envrionment and transportation. 
+1. City Pollution Data: Used Kaggle to find CSV datafile with information on air quality and water pollution by city.
+2. Smart City Data: Used Kaggle to find CSV datafile with information on how effectively Internet of Things has been implemented to manage aspects of city life, specifically looking at envrionment and transportation. 
 
 ## Instructions
 1. Open PostgresAdmin
