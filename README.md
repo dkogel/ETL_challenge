@@ -10,7 +10,7 @@
 1. Open PostgresAdmin
 2. Create Database named ``city_pollution_db``
 3. Open city_pollution.sql with the query tool in PGAdmin
-4. Select ``city_info`` and ``smart_info`` tables and run to create two tables
+4. Select ``city_info`` and ``smart_info`` statements and run to create two tables
 5. Select the select table command ``SELECT * FROM smart_info`` and ``SELECT * FROM city_info``
 6. Open Jupyter Notebook file named ``City_Pollution.ipynb``
 7. Run all cells in City_Pollution notebook
