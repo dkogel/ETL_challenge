@@ -16,6 +16,6 @@
 7. Select the ``SELECT * FROM city_info`` statement and run
 8. Verify the table was created without errors
 9. Open Jupyter Notebook file named ``City_Pollution.ipynb``
-10. Run all cells in City_Pollution notebook
+10. Run all cells in ``City_Pollution.ipynb``
 11. Return to pgAdmin
 12. Select the ``JOIN`` statement and run to combine the tables on the city columns
